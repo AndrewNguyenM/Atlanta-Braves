@@ -14,6 +14,8 @@ This Python tool fetches pitching statistics data from the MLB StatsAPI and comp
 
 In the code there is a line that takes the database locally from your PC so the line where it says db_path = "change/path/to/file/locally" just change the file path to what it is on your pc.
 
+**Make sure within SQLite to do `.mode column` for the proper column headers to appear**
+
 ---
 ## Requirements
 
